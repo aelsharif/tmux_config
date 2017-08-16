@@ -3,8 +3,8 @@
 
 This config file can be used to enable these features in your tmux file.
 1. Enable mouse scrolling 
-2. Enalbe TPM (Tmux Plugin Manager) (https://github.com/tmux-plugins/tpm)
-3. Enalbe the ThemePack plugin (https://github.com/jimeh)
+2. Enable TPM (Tmux Plugin Manager) (https://github.com/tmux-plugins/tpm)
+3. Enable the ThemePack plugin (https://github.com/jimeh)
 4. Enable the Powerline Cyan theme 
 
 Copy this file to your home directory "/". Your file should be in "/.tmux.conf"
