@@ -7,7 +7,9 @@ This config file can be used to enable these features in your tmux file.
 3. Enalbe the ThemePack plugin (https://github.com/jimeh)
 4. Enable the Powerline Cyan theme 
 
-Copy this file to your home directory (~). Your file should be in "~/.tmux.conf"
+Copy this file to your home directory "/". Your file should be in "/.tmux.conf"
+
+<img src="tmux_config_screenshot.gif" />
 
 ## Installing TPM
 =================
