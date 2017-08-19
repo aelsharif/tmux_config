@@ -11,7 +11,7 @@ Rename the tmux.conf file to .tmux.conf and copy it to your home directory "/.tm
 <img src="tmux_config_screenshot.gif" />
 
 ## Install TPM
-=================
+
 1. To install TPM, you need to clone TPM from github:
 
 ```
