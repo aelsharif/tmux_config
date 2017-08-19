@@ -1,17 +1,17 @@
 ## Introduction
 ============
 
-This config file can be used to enable these features in your tmux file:
+The configuration file in this repo can be used to enable these features for your tmux macOS install (to install tmux refer to this [page]https://goo.gl/vmYTVQ):
 1. Enable mouse scrolling 
 2. Enable TPM (Tmux Plugin Manager) (https://github.com/tmux-plugins/tpm)
 3. Enable the ThemePack plugin (https://github.com/jimeh)
 4. Enable the Powerline Cyan theme 
 
-Copy this file to your home directory "/". Your file should be in "/.tmux.conf"
+Clone this repo to your home directory (Your files should be in "/.tmux.conf" folder)
 
 <img src="tmux_config_screenshot.gif" />
 
-## Installing TPM
+## Install TPM
 =================
 1. To install TPM, all you need is to clone TPM from github:
 
@@ -19,11 +19,11 @@ Copy this file to your home directory "/". Your file should be in "/.tmux.conf"
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-2. The config file will use that file to install plugin. Just make sure the path is same as in the command above
+2. The configuration will use TPM to install the ThemePack plugin. Just make sure the path is same as in the command above
 
 
 
-## install Powerline fonts
+## Install Powerline Fonts
 ==============================
 The ThemePack plugin uses powerline fonts. If you don't have those fonts installed the theme wouldn't look right. To install the fonts follow these steps:
 
@@ -42,7 +42,7 @@ rm -rf fonts
 
 2.  If Iterm2 go to File -> Profiles -> Text and change font to one of the Powerline fonts. I use "13 Space Mono" as my default one. For list of files go to https://github.com/powerline/fonts
 
-### Source the tmux.conf file
+### Source/enable the tmux.conf file
 ================================
 To enable/source the config file in tmux while running a session, type this in your tmux terminal
 
