@@ -25,6 +25,7 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ## Install Powerline Fonts
 ==============================
+
 The ThemePack plugin uses powerline fonts. If you don't have those fonts installed the theme wouldn't look right. To install the fonts follow these steps:
 
 1. run these lines of code:
@@ -44,6 +45,7 @@ rm -rf fonts
 
 ### Source/enable the tmux.conf file
 ================================
+
 To enable/source the config file in tmux while running a session, type this in your tmux terminal
 
 ```
