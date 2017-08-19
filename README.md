@@ -1,5 +1,4 @@
 ## Introduction
-============
 
 The configuration file in this repo can be used to enable these features for your tmux macOS install (to install tmux refer to this page https://goo.gl/vmYTVQ):
 1. Enable mouse scrolling 
@@ -24,7 +23,6 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 
 ## Install Powerline Fonts
-==============================
 
 The ThemePack plugin uses powerline fonts. If you don't have those fonts installed the theme wouldn't look right. To install the fonts follow these steps:
 
@@ -44,7 +42,7 @@ rm -rf fonts
 2. To enable the fonts in Iterm2 go to File -> Profiles -> Text and change font to one of the Powerline fonts. I use "13 Space Mono" as my default one in the screenshot above. For list of other fonts go to https://github.com/powerline/fonts
 
 ### Source/enable the tmux.conf file
-================================
+
 
 To enable/source the config file in tmux while running a session, type this in your tmux terminal
 
