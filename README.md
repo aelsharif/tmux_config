@@ -7,13 +7,13 @@ The configuration file in this repo can be used to enable these features for you
 3. Enable the ThemePack plugin (https://github.com/jimeh)
 4. Enable the Powerline Cyan theme 
 
-Clone this repo to your home directory (Your files should be in "/.tmux.conf" folder)
+Rename the tmux.conf file to .tmux.conf and copy it to your home directory "/.tmux.conf".
 
 <img src="tmux_config_screenshot.gif" />
 
 ## Install TPM
 =================
-1. To install TPM, all you need is to clone TPM from github:
+1. To install TPM, you need to clone TPM from github:
 
 ```
 $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
@@ -40,7 +40,7 @@ cd ..
 rm -rf fonts
 ```
 
-2.  If Iterm2 go to File -> Profiles -> Text and change font to one of the Powerline fonts. I use "13 Space Mono" as my default one. For list of files go to https://github.com/powerline/fonts
+2. To enable the fonts in Iterm2 go to File -> Profiles -> Text and change font to one of the Powerline fonts. I use "13 Space Mono" as my default one in the screenshot above. For list of other fonts go to https://github.com/powerline/fonts
 
 ### Source/enable the tmux.conf file
 ================================
@@ -50,4 +50,4 @@ To enable/source the config file in tmux while running a session, type this in y
 tmux source ~/.tmux.conf
 ```
 
-This will run the plugins and you should see the new theme.
+This will run the plugins and you should see the new theme applied.
